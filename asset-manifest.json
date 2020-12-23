@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/curriculum_vitae/static/css/main.2442f332.chunk.css",
+    "main.js": "/curriculum_vitae/static/js/main.5c2b0bd7.chunk.js",
+    "main.js.map": "/curriculum_vitae/static/js/main.5c2b0bd7.chunk.js.map",
+    "runtime-main.js": "/curriculum_vitae/static/js/runtime-main.bb59ea1d.js",
+    "runtime-main.js.map": "/curriculum_vitae/static/js/runtime-main.bb59ea1d.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/curriculum_vitae/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.6c39082e.chunk.js": "/curriculum_vitae/static/js/2.6c39082e.chunk.js",
+    "static/js/2.6c39082e.chunk.js.map": "/curriculum_vitae/static/js/2.6c39082e.chunk.js.map",
+    "index.html": "/curriculum_vitae/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/curriculum_vitae/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.2442f332.chunk.css.map": "/curriculum_vitae/static/css/main.2442f332.chunk.css.map",
+    "static/js/2.6c39082e.chunk.js.LICENSE.txt": "/curriculum_vitae/static/js/2.6c39082e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb59ea1d.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.6c39082e.chunk.js",
+    "static/css/main.2442f332.chunk.css",
+    "static/js/main.5c2b0bd7.chunk.js"
+  ]
+}
