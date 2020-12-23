@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Typical from 'react-typical';
 import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
