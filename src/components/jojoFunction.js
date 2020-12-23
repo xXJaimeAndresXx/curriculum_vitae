@@ -6,7 +6,7 @@ function jojoClick(){
     }
     return(
         <div>
-            <a href="#contact" onClick={clickHandler}><img id="jojo"src="https://raw.githubusercontent.com/xXJaimeAndresXx/curriculum_vitae/master/public/images/jojo.png"></img></a>
+            <a href="#contact" onClick={clickHandler}><img id="jojo"src="./images/jojo.png"></img></a>
         </div>
     )
 }

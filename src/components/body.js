@@ -101,212 +101,215 @@ class Body extends Component {
         </div>
         <div className="container-bg " id="secondary">
           <div className="row ">
-            <div id="skillCard" class="card text-white bg-dark m-5 col-6">
-              <div class="card-header">
+            <div id="skillCard" className="card text-white bg-dark m-5 col-lg-6  col-md-6 col-sm-6 col-xs-12">
+              <div className="card-header">
                 <h1>Skills</h1>
               </div>
-              <div class="card-body">
-                <div class="card-text">
+              <div className="card-body">
+                <div className="card-text">
                   <div className="row">
-                    <div className="col-6">
-                      <h4>Python</h4>
-                      <h4>Javascript</h4>
-                      <h4>PHP</h4>
-                      <h4>Java</h4>
-                      <h4>MySQL</h4>
-                      <h4>SQLServer</h4>
-                      <h4>MongoDB</h4>
-                      <h4>DynamoDB</h4>
-                      <h4>NodeJS</h4>
-                      <h4>React</h4>
-                      <h4>Bootstrap</h4>
-                      <h4>VueJS</h4>
-                      <h4>Vuetify</h4>
-                      <h4>ExpressJS</h4>
-                      <h4>HTML</h4>
-                      <h4>CSS</h4>
-                      <h4>API's Rest</h4>
-                      <h4>AWS</h4>
-                      <h4>Linux</h4>
-                      <h4>Github</h4>
-                      <h4>Photoshop</h4>
+                    <div className="col-12 text-right">
+                      <h6>Python <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i></h6>
+                      <h6>Javascript<i className="px-1 my-5">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>PHP<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>Java<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>MySQL<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>SQLServer<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>MongoDB<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>DynamoDB<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>NodeJS<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>React<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>Bootstrap<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>VueJS<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>Vuetify<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>ExpressJS<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>HTML<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>CSS<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>API's Rest<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>AWS                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>Linux <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>Github<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
+                      <h6>Photoshop<i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle}</i>
+                          <i className="px-1">{circle2}</i>
+                          <i className="px-1">{circle2}</i>
+                          <br /></h6>
                       <hr></hr>
-                      <h2>-Languages</h2>
+                      <div className="col-12 text-left">
+<h2>Languages</h2>
                       <hr />
                       <h4>English (C2)</h4>
+                      </div>
+                      
                     </div>
-                    <div className="col-6">
+                    {/* <div className="col-8">
                       <h4>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
+                          
                           <br />
                         </div>
                         <div className="my-1">
-                          <i className="px-1 my-5">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+
                         </div>
                         <div className="my-1">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                         
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                         <div className="my-2">
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle}</i>
-                          <i className="px-1">{circle2}</i>
-                          <i className="px-1">{circle2}</i>
-                          <br />
+                          
                         </div>
                       </h4>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -316,24 +319,24 @@ class Body extends Component {
                 Laboral Experience
               </h1>
               <h4>AWS CLOUD DEVELOPMENT BOOTCAMP</h4>
-              <h6>G-Tech | Agosto 2020- Enero 2021</h6>
+              <h6>G-Tech | August 2020- January 2021</h6>
               <p>
                 <ul className="my-0 px-0">
-                  <li>Diseño de arquitecturas de sitios web con AWS</li>
-                  <li>Fungir como Product Owner y organizador del Dev-Team</li>
+                  <li>Design of website architectures with AWS</li>
+                  <li>Serve as Product Owner and organizer of the Dev-Team</li>
                   <li>
-                    Desarrollo Front-End y Back-End con herramientas de AWS
+                  Front-End and Back-End Development with AWS Tools
                   </li>
-                  <li>Desarrollo de web-app's con server side rendering</li>
+                  <li>Web-app development with server side rendering</li>
                 </ul>
               </p>
-              <h4>TECNICO EN SOPORTE Y MANTENIMIENTO DE EQUIPO DE COMPUTO</h4>
-              <h6>Secretaria de Educación Publica | Enero 2016 - Julio 2016</h6>
+              <h4>TECHNICIAN IN SUPPORT AND MAINTENANCE OF COMPUTER EQUIPMENT</h4>
+              <h6>Secretaria de Educación Publica | January 2016 - July 2016</h6>
               <p>
                 <ul className="my-0 px-0">
-                  <li>Soporte y Mantenimiento de Equipo de Computo</li>
-                  <li> Supervisión de Redes y Sistemas de Computo</li>
-                  <li> Trato con el cliente</li>
+                  <li>Support and Maintenance of Computer Equipment</li>
+                  <li> Supervision of Networks and Computing Systems</li>
+                  <li> Deal with customers</li>
                 </ul>
               </p>
             </div>
@@ -345,28 +348,28 @@ class Body extends Component {
                   Academic Experience
                 </h1>
                 
-                <h4>INEGENIERIA EN SISTEMAS COMPUTACIONALES</h4>
+                <h4>COMPUTER SYSTEMS ENGINEERING</h4>
                 <h6>
-                  Instituto Tecnológico de Durango | Especialidad en:
-                  Tecnologías Web Para Negocios Electrónicos | Agosto 2016 -
-                  Julio 2021
+                  Instituto Tecnológico de Durango | Specialty in:
+                  Web Technologies For Electronic Businesses | August 2016 -
+                  July 2021
                 </h6>
                 <p>
                   <ul className="my-0 px-0">
-                    <li>Metodologias Agiles</li>
+                    <li>Agile methodologies</li>
                     <li>
-                    Capacitacion sobre UI/UX y Marketing
+                    Training on UI / UX and Marketing
                     </li>
                     <li>
-                    Seguridad Web e Ingenieria Social
+                    Web Security and Social Engineering
 
                     </li>
-                    <li>Desarrollo Web Profesional</li>
+                    <li>Professional Web Development</li>
                   </ul>
                 </p>
-                <h4>Certificaciones</h4>
+                <h4>Certifications</h4>
                 <h6>
-                Junio 2016 - Diciembre 2020
+                June 2016 - December 2020
                 </h6>
                 <p>
                   <ul className="my-0 px-0">

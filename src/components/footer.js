@@ -18,11 +18,11 @@ class Footer extends Component {
                   <h8>EMAIL:</h8>
                   <h9> jaimeandres2998@gmail.com</h9>
                   <br/>
-                  <h8>PHONE:</h8>
+                  <h8>PHONE/WHATSAPP:</h8>
                   <h9> (+52) 6183202921</h9>
                   <br/>
                   <h8>LOCATION:</h8>
-                  <h9>Durango, Durango, Mexico.</h9>
+                  <h9> Durango, Durango, Mexico.</h9>
                   <br/>
                   <h6></h6>
                 </p>

@@ -5,7 +5,7 @@ class Navigation extends Component{
     render(){
         return <div>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
-                    <a className="navbar-brand"><img src="/images/curriculum.svg" width="40" height="40"></img></a>
+                    <a href="#" className="navbar-brand"><img src="./images/curriculum.svg" width="40" height="40"></img></a>
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#collapsetarget">
                         <span className="navbar-toggler-icon"></span>
                     </button>

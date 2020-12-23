@@ -20,7 +20,7 @@ class Header extends Component{
                     <div className="row h-100 align-items-center">
                     <div className="col-12 text-center text-white">
                         
-                            <img  className="rounded-circle col-lg-3 pb-3" alt="100x100" src="/images/linkedin2.jpg"
+                            <img  className="rounded-circle col-lg-3 col-md-3 col-sm-3 col-xs-3 pb-3" alt="100x100" src="./images/linkedin2.jpg"
           data-holder-rendered="true"/>
                         
                     
